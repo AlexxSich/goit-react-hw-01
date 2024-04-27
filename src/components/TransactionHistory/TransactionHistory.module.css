@@ -1,0 +1,33 @@
+.trnsactionTable {
+    width: 500px;
+    padding: 0;
+    border: 2px solid rgb(43, 42, 42);
+    border-collapse: collapse;
+}
+
+.mainRow {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    gap: 20px;
+    font-family: "Inter Tight", sans-serif;
+    line-height: 2;
+    letter-spacing: -0.02em;
+    font-size: 15px;
+    color: #fff;
+}
+
+.tableCell {
+    border: 2px solid rgb(43, 42, 42);
+    padding: 5px
+}
+
+.tableRow {
+    text-align: center;
+    text-transform: capitalize;
+    border-collapse: collapse;
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgb(203, 203, 203);
+}

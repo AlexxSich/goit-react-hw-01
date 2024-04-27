@@ -1,0 +1,27 @@
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    gap: 15px;
+}
+
+.cardImg {
+    width: 100px;
+}
+
+.statusText {
+    font-size: 25px;
+}
+
+.isOnline {
+    color: green;
+}
+
+.isOffline {
+    color: red;
+}
